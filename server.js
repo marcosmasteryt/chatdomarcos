@@ -1,5 +1,7 @@
 const express = require('express');
 const path = require('path');
+const mongoose = require('mongoose');
+
 
 const app = express();
 const server = require('http').createServer(app);
@@ -27,4 +29,4 @@ io.on('connection', socket => {
     });
 });
 
-server.listen(8080);
+server.listen(3000);
