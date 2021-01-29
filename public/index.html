@@ -18,7 +18,7 @@
     </form>
 
     <script type="text/javascript">
-        var socket = io('https://chatdomarcos.herokuapp.com/');
+        var socket = io('http://chatdomarcos-com-br.umbler.net/');
 
         function renderMessage(message) {
             $('.messages').append('<div class="message"><strong>'+ message.author +'</strong>: '+ message.message +'</div>');
